@@ -1,0 +1,27 @@
+.watchedButton {
+	height: 30px;
+	width: 30px;
+
+	text-align: center;
+	justify-items: center;
+}
+.movie {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.movie-title {
+	font-size: large;
+	font-weight: bold;
+}
+.movie-list {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.watchedBool {
+	display: inline-block;
+	justify-self: center;
+	font-size: large;
+	padding: 5px;
+}
