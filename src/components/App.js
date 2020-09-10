@@ -82,6 +82,7 @@ class App extends React.Component {
 					list={correctMovieList}
 					toggleMovieWatched={this.toggleMovieWatched}
 				/>
+				<button className="watched-view-toggle-button" onClick={(e)=>{e.preventDefault(); this.watchedViewCycler()}}>{currentWatchedView}</button>
 			</div>
 		);
 	}
